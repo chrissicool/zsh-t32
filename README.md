@@ -24,7 +24,7 @@ add the following line to your plugins list:
 > antigen bundle chrissicool/zsh-t32
 
 If you use [Oh-My-Zsh](https://github.com/robbyrussell/oh-my-zsh "OMZ manager for ZSH"),
-add `zsh-t32` to your `plugins` lis and tclone this repository to your
+add `zsh-t32` to your `plugins` list and clone this repository to your
 `$ZSH_CUSTOM/plugins` directory:
 
 > $ ( cd $ZSH_CUSTOM/plugins && git clone https://github.com/chrissicool/zsh-t32 )
