@@ -13,8 +13,10 @@ t32_init() {
 
   # adjust font directory
   #mkfontdir "$T32SYS/fonts"
-  xset +fp "$T32SYS/fonts"
-  xset  fp rehash
+  if [[ -n "$DISPLAY" ]] ; then
+    xset +fp "$T32SYS/fonts"
+    xset  fp rehash
+  fi
 
   case "$(uname -s)" in
     Linux) case "$(uname -m)" in
